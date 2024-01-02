@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "font";
+    src: url("../font/Mahboubeh_mehravar.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "font";
+}
+body{
+    direction: rtl;
+    width: 100%;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

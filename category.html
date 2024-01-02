@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>صفحه اصلی</title>
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/category.css">
     <style type="text/tailwindcss">
         @layer utilities {
           .content-auto {
@@ -15,7 +17,11 @@
 </head>
 
 <body>
-
+    <!-- main-page -->
+    <main>
+        
+    </main>
+    <!-- js -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -25,6 +31,14 @@
                     }
                 }
             }
+        }
+        /** @type {import('tailwindcss').Config} */
+        module.exports = {
+            theme: {
+                container: {
+                    center: true,
+                },
+            },
         }
     </script>
 
